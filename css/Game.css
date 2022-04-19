@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    width: 900px;
+    height: 550px;
+}
+
+#start1 {
+    with: 200px;
+    font-family: "Times New Roman";
+    background-color: red;
+    border: black solid 2px;
+
+}
+
+table {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    border: black solid;
+    font: caption;
+    font-size: 50px;
+    /*padding:*/
+}
+
+#start-screen {
+    background-color: black;
+    width: 100%;
+
+}
+#timer {
+    color: lightcoral;
+    background-color: rgba(255, 255, 255, 0);
+    width: 45px;
+}
+.question {
+    border: none;
+}
+
+#ques1 {
+    background-color: lightpink;
+    /*shape-image-threshold: inherit;*/
+}
+
+#ques2 {
+    background-color: lightblue;
+}
+
+#ques3 {
+    background-color: lightgreen;
+}
+
+#ques4 {
+    background-color: lightcoral;
+}
+
+#ques5 {
+    background-color: lightpink;
+}
+
+#ques6 {
+    background-color: lightcoral;
+}
+
+p {
+    font-style: italic;
+    font-size: 40px;
+    /*border: black 2px;*/
+    background-color: palegoldenrod;
+}
+
+button {
+    font-size: 50px;
+    font-family: caption;
+}
+
+.in {
+    display: flex;
+}
+
+div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+

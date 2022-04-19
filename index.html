@@ -2,9 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Đuổi hình bắt chữ</title>
+    <link rel="stylesheet" href="css/Game.css">
+
 </head>
 <body>
+<div id="start-screen" with="100%">
+    <table>
+        <tr>
+            <td colspan="10"><img id="dest1" src="image/des2.jpg" width="100%"></td>
+        </tr>
+        <tr>
+            <td colspan="10">
+                <button id="start1" onclick="start()">START</button>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="ques1" hidden>
+    <table>
+        <tr class="question">
+            <td colspan="10"><p id="title-question"></td>
+            <td colspan="2"><p id="timer"></p></td>
+        </tr>
+        <tr aria-colspan="10">
+            <td colspan="10"><img id="img-question" src="image/tinhtruong.jpg" width="100%"></td>
+        </tr>
+        <tr class="in" id="list-input">
+
+        </tr>
+        <br>
+        <tr>
+            <td colspan="5">
+                <button id="check1" onclick="check()">Kiểm tra</button>
+            </td>
+            <td>
+                <button onclick="questionReturn()">Câu trước đó</button>
+                <button id="next-button" onclick="next()">Câu tiếp theo</button>
+                <button id="end-button"  onclick="checkEnd()" hidden>Kết thúc</button>
+            </td>
+            <td><p id="result" style="background-color: green"></p></td>
+        </tr>
+    </table>
+</div>
+<div id="end-game">
+<!--<p>Bạn đã trả lời đúng: </p><span id="score"></span>-->
+</div>
+
+<script src="js/Question.js"></script>
+<script src="js/Main.js"></script>
+<script src="js/result.js"></script>
 
 </body>
 </html>
